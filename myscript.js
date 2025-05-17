@@ -21,8 +21,8 @@ document.getElementById("insert").onclick = function () {
       name: nameV,
       gender: genderV,
       address: addressV,
-      zodiacsign: zodiacsignV,
-      number: numberV,
+      email: emailV,
+      status: statusV,
     });
   alert("Data Inserted");
   document.getElementById("roll").value = "";
